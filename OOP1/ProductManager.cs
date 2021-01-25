@@ -2,17 +2,20 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace Methods
+namespace OOP1
 {
     class ProductManager
     {
         public void Add(Product product)
         {
-            Console.WriteLine(product."ürün başarıyla eklendi!");
+            Console.WriteLine(product.ProductName + "  " +"eklendi");
         }
         public void Update(Product product)
         {
-            Console.WriteLine();
+            Console.WriteLine(product.ProductName + " "+"güncellendi");
         }
+
+
     }
+
 }
